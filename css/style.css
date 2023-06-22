@@ -1,0 +1,229 @@
+/* Start Variables */
+:root {
+  --main-color: #10cab7;
+  --secondary-color: #4afa79;
+  --section-padding: 60px;
+  --section-background: #f6f6f6;
+  --third-color: #ffc400;
+  --main-duration: 0.5s;
+}
+/* End Variables */
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.main-btn {
+  background-color: red;
+  color: #fff;
+  text-decoration: none;
+}
+.nav-item a.active {
+  color: #10cab7;
+}
+.navbar {
+  background-color: var(--main-color);
+}
+.navbar-brannd {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color: rgb(255 255 255);
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active,
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link:focus {
+  color: var(--secondary-color);
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler[aria-expanded="true"] {
+  border: var(--secondary-color) 1px solid;
+}
+.search {
+  border-left: 1px var(--secondary-color) solid;
+}
+.search svg {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+/* .landing */
+.landing {
+  background-color: var(--main-color);
+  min-height: calc(100vh - 74px);
+}
+.services {
+  min-height: calc(100vh - 74px);
+}
+.services .con {
+  position: relative;
+}
+.services p {
+  font-size: 14px;
+}
+.services .con::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  background-color: #10cab7;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  
+}
+/* columns */
+.icon-holder {
+  height: 200px;
+}
+
+.obj {
+  width: 99vw;
+}
+.feat {
+  margin-left: 40px;
+}
+.feat .nom {
+  font-size: 10rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  color: #eff7fa;
+}
+.feat .icon {
+  color: var(--main-color);
+  font-size: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.feat h3 {
+  color: var(--third-color);
+}
+/* practices */
+.services .practices {
+  background-color: var(--section-background);
+}
+.practices ul li {
+  user-select: none;
+  font-size: 1rem;
+  margin: 0 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.practices ul li.active {
+  background-color: var(--third-color);
+  color: var(--section-background);
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+}
+.practices ul li:hover{
+  color: var(--third-color);
+}
+.photo {
+  margin-left: 10px;
+  position: relative;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.photo .box {
+  overflow: hidden;
+  position: relative;
+}
+.services .btn a {
+  background-color: var(--third-color);
+}
+.stuff {
+  min-height: calc(100vh + 160);
+  background-color: #fff;
+}
+.stuff .con {
+  padding-top: 5rem;
+}
+.des {
+  max-width: 400px;
+  margin: auto;
+}
+.con-row {
+  width: 80%;
+  margin: 0 auto;
+}
+.des .btn a {
+  background-color: var(--third-color);
+}
+.contact{
+  min-height: 100vh;
+  background-color: var(--section-background);
+
+}
+.contact h3{
+  color: var(--third-color);
+}
+.contact .row .cards h3{
+background-color: var(--main-color);
+margin: 0;
+}
+.creat{
+  background-color: var(--main-color);
+}
+.creat .btn a {
+  background-color: var(--third-color);
+}
+.blog{
+  min-height: calc(100vh - 250px);
+  background-color: #fff;
+}
+.blog .container{
+  background-color: #fff;
+}
+
+footer .sub{
+  background-color: var(--third-color);
+}
+footer .sub input[type="text"]{
+  outline: none;
+  border: none;
+  color: #fff;
+  border-bottom: #fff 2px solid;
+  place-content: var(--main-color);
+  flex: 1;
+  caret-color: #fff;
+}
+.subscribe{
+  background-color: var(--main-color);
+}
+.bg{
+  height: ;
+}
+.bg .icon .svg{
+  color: blue;
+  padding: 20px;
+}
